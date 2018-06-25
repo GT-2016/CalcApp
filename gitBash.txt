@@ -1,0 +1,23 @@
+git clone https://github.com/GT-2016/CalcApp.git
+
+cd CalcApp/
+
+mkdir python
+
+git add python/
+
+git add gitBash.txt
+
+git commit -m "新建python文件夹，存放python测试代码"
+
+
+git push origin master #推送master分支到远端服务器
+
+cd ../
+mkdir testgit
+cd testgit
+git init
+touch test.md
+git add test.md
+git commit -m "just for test"
+git remote add origin https://github.com/GT-2016/CalcApp.git
